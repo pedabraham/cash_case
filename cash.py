@@ -2,7 +2,7 @@
 change = -1
 while change < 0:
     try:
-        change = float(input())
+        change = float(input("Change owed: "))
     except:
         pass
 #convert to cents
